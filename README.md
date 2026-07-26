@@ -16,34 +16,34 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 
 # Project Workflow
 
-### 1️⃣ Data Loading
+### Data Loading
 - Imported the raw movie dataset into PySpark.
 - Inspected the dataset structure and schema.
 
-### 2️⃣ Data Cleaning & Transformation
+### Data Cleaning & Transformation
 - Removed invalid and missing records.
 - Converted columns to appropriate data types.
 - Extracted the release year.
 - Selected relevant features for analysis.
 
-### 3️⃣ PostgreSQL Integration
+### PostgreSQL Integration
 - Connected PySpark with PostgreSQL using JDBC.
 - Loaded the cleaned dataset into the database.
 - Verified successful data insertion.
 
-### 4️⃣ SQL Validation
+### SQL Validation
 - Executed SQL queries to validate the data.
 - Explored database tables and schema.
 - Verified record counts and data quality.
 
-### 5️⃣ Dashboard Development
+### Dashboard Development
 - Connected Power BI to PostgreSQL.
 - Built an interactive dashboard for movie analysis.
 - Created KPI cards, filters, charts, and detailed reports.
 
 ---
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 | Category | Technologies |
 |----------|--------------|
@@ -57,7 +57,7 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 
 ---
 
-# 💻 Technical Skills Demonstrated
+#  Technical Skills Demonstrated
 
 - ETL Pipeline Development
 - Data Cleaning & Transformation
@@ -73,7 +73,7 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 
 ---
 
-# 📊 Dashboard Features
+#  Dashboard Features
 
 - Total Movies KPI
 - Average Rating
@@ -88,11 +88,12 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 
 ---
 
-# 📸 Project Screenshots
+
 
 ## ETL Pipeline (PySpark)
 
 ![ETL Pipeline](ETL_Pipeline%20Movie.jpg)
+![ETL Pipeline](ETL_Pipeline%20Movie2.jpg)
 
 ---
 
@@ -102,17 +103,14 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 
 ---
 
-## SQL Validation
+## Power Query (Data Transformation)
 
-![SQL Queries](ETL_Pipeline%20Movie2.jpg)
+![Power Query](power%20bi.jpg)
 
 ---
-
 ## Power BI Dashboard
 
 ![Power BI Dashboard](power%20bi.jpg)
-
----
 
 # 📈 Key Insights
 
@@ -123,19 +121,3 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 - Identified trends in movie ratings, popularity, genres, and release years.
 
 ---
-
-# 📂 Repository Structure
-
-```
-movies-etl-dashboard
-│
-├── ETL_Pipeline Movie.ipynb
-├── movies_cleaned.csv
-├── moves dashboard.pbix
-├── ETL_Pipeline Movie.jpg
-├── ETL_Pipeline Movie2.jpg
-├── pgAdmin.jpg
-├── power bi.jpg
-└── README.md
-```
-
