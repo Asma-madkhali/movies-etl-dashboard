@@ -110,7 +110,8 @@ An end-to-end data analytics project that demonstrates building an ETL pipeline 
 ---
 ## Power BI Dashboard
 
-![Power BI Dashboard](Movies%20Dashboard.jpg)
+![Power BI Dashboard](Power%20BI%20Dashboard.jpg)
+
 # 📈 Key Insights
 
 - Built a complete ETL pipeline from raw data to visualization.
